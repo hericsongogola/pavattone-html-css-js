@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Pavattone</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="modal modal">
+        <div class="modal__brand brand">
+          <div class="brand__circle brand__circle--green"></div>
+          <div class="brand__circle brand__circle--white"></div>
+          <div class="brand__circle brand__circle--red"></div>
+        </div>
+        <header class="modal__header">
+          <h1>Login</h1>
+          <p>Entre com suas credenciais.</p>
+        </header>
+        <form action="" class="modal__form">
+          <div class="input--default-box">
+            <div class="input--default__icon-box">
+              <i class="fa-solid fa-user input--default__icon"></i>
+            </div>
+            <input
+              type="text"
+              name="Usuário"
+              id="input-usuario"
+              class="input--default"
+              placeholder="Usuário"
+            />
+          </div>
+          <div class="input--default-box">
+            <div class="input--default__icon-box">
+              <i class="fa-solid fa-user input--default__icon"></i>
+            </div>
+            <input
+              type="password"
+              name="Senha"
+              id="input-senha"
+              class="input--default"
+              placeholder="Senha"
+            />
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="input--checkbox"
+              id="checkbox-senha"
+            />
+            <label class="text" for="checkbox-senha">Mostrar senha</label>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
